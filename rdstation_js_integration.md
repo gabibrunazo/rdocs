@@ -8,7 +8,7 @@ Os seus formulários irão para o RD Station com um identificador. Identificador
 
 ### Funcionamento
 
-O componente integrador irá identificar automaticamente seu formulário se ele possuir um campo (`input`) com o nome **email**:
+O componente integrador irá identificar automaticamente seu formulário se ele possuir um campo (`input`) com o nome **email**. O type deverá ser "text":
 ```HTML
 <input type="text" name="email" />
 ```
